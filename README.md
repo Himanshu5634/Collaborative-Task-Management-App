@@ -1,12 +1,21 @@
-# React + Vite
+# Collaborative Task App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The Collaborative Task App is a React-based application designed to help users manage tasks efficiently. It includes features for user authentication, task creation, editing, deletion, and commenting. The app leverages Redux for state management and localStorage for data persistence.
 
-Currently, two official plugins are available:
+## Features
+- **User Authentication**: Register and login functionality with validation.
+- **Task Management**: Add, edit, and delete tasks.
+- **Task Comments**: Add comments to tasks for better collaboration.
+- **Protected Routes**: Dashboard access is restricted to authenticated users.
+- **Responsive Design**: User-friendly interface with responsive styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the required dependencies:
+   ```sh
+   npm install
+4. Start the development server:
+   ```sh
+   npm run dev
