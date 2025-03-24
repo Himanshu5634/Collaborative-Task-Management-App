@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+  
+    .nav-links {
+      display: flex;
+      align-items: center;
+  
+      .login-button {
+        padding: 8px 15px;
+        background: #007bff;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        &:hover {
+          background: #0056b3;
+        }
+      }
+  
+      .profile-container {
+        position: relative;
+        cursor: pointer;
+  
+        .profile-icon {
+          color: #007bff;
+          cursor: pointer;
+        }
+  
+        .dropdown {
+          position: absolute;
+          right: 0;
+          top: 40px;
+          background: white;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          padding: 10px;
+          min-width: 120px;
+          text-align: center;
+  
+          p {
+            margin: 0;
+            font-weight: bold;
+          }
+  
+          button {
+            margin-top: 5px;
+            width: 100%;
+            padding: 5px;
+            background: red;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            &:hover {
+              background: darkred;
+            }
+          }
+        }
+      }
+    }
+  }
+  
